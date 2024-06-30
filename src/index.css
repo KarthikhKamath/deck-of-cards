@@ -1,0 +1,122 @@
+*{
+  font-family: "Poppins";
+}
+
+.drawCard {
+    width: 200px;
+    height: 300px;
+    background-color: black;
+    margin: 20px auto;
+  }
+  
+  .drawText {
+    color: white;
+    height: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pickedCards,
+  .leftCards {
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 90%;
+    grid-gap: 20px;
+  }
+
+  .Used, .left{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 1200px) {
+    .pickedCards,
+    .leftCards {
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 15px;
+    }
+  
+    .drawCard {
+      width: 160px;
+      height: 240px;
+    }
+  
+    .drawText {
+      font-size: 24px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .pickedCards,
+    .leftCards {
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 15px;
+    }
+  
+    .drawCard {
+      width: 140px;
+      height: 210px;
+    }
+  
+    .drawText {
+      font-size: 22px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .pickedCards,
+    .leftCards {
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 10px;
+    }
+  
+    .drawCard {
+      width: 120px;
+      height: 180px;
+    }
+  
+    .drawText {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .pickedCards,
+    .leftCards {
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 10px;
+    }
+  
+    .drawCard {
+      width: 100px;
+      height: 150px;
+    }
+  
+    .drawText {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .pickedCards,
+    .leftCards {
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 5px;
+    }
+  
+    .drawCard {
+      width: 80px;
+      height: 120px;
+    }
+  
+    .drawText {
+      font-size: 16px;
+    }
+  }
+  

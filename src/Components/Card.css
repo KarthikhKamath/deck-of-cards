@@ -1,0 +1,49 @@
+.card {
+    width: 150px;
+    height: 220px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.number {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.icon {
+    color: #333;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.icon.♣️ {
+    color: #1E8449; 
+}
+
+.icon.♦️ {
+    color: #E74C3C; 
+}
+
+.icon.♠️ {
+    color: #2C3E50;
+}
+
+.icon.💓 {
+    color: #E74C3C;
+}
